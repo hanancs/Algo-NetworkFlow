@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
+
+
 public class CourseWorkAlgo {
     public static void main(String[] args) throws InterruptedException {
 
@@ -173,6 +175,7 @@ class GraphX {
         return edges;
     }
 
+    //adjacencyList
     public void printGraph() {
         for (int i = 0; i < vCount; i++) {
             List<Integer> edges = neighbours(i);
@@ -184,6 +187,7 @@ class GraphX {
         }
     }
 
+    //adjacencyMatrix
     void printMe() {
         for (int i = 0; i < vCount; i++) {
             for (int j = 0; j < vCount; j++)
